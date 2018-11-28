@@ -1,0 +1,7 @@
+[submodule "themes/cocoa-eh"]
+	path = themes/cocoa-eh
+	url = https://github.com/mtn/cocoa-eh-hugo-theme.git
+[submodule "public"]
+	path = public
+	url = git@github.com:marccgk/marccgk.github.io.git
+	branch = master

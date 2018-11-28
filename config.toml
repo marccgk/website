@@ -1,0 +1,36 @@
+baseURL = "http://marccgk.github.io/"
+languageCode = "en-us"
+theme = "cocoa-eh"
+title = "Marc Costa"
+author = "Marc Costa"
+builddrafts = true
+canonifyurls = true
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+disqusshortname = ""
+pluralizelisttitles = false
+
+[permalinks]
+blog = "blog/:slug/"
+
+[params]
+dateform = "Jan 2, 2006"
+dateformfull = "Mon Jan 2 2006 15:04:05 MST"
+description = "Marc Costa's blog"
+# copyright = "Copyright © 2015 Nishanth Shanmugham"
+logofile = "img/cornell_box_64spp.png"
+faviconfile = "img/cornell_box_64spp.png"
+highlightjs = true
+progressively = false
+align_left = false
+lang = "en"
+share = false
+github = "marccgk"
+# email = "you@example.com"
+linkedin = "marccosta"
+twitter = "markus_cg"
+social_banner = "img/banner.jpg"
+posts_navigation = true
+small_banner_logo = false
+latestpostcount = 5

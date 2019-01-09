@@ -2,7 +2,7 @@
 # vim: set textwidth=120:
 
 title: "Optimizing the CAS loop"
-date: 2018-12-10T10:02:58-08:00
+date: 2019-01-09T03:30:00-08:00
 draft: false
 ---
 In the [last post]({{< ref "/blog/a_virtual_memory_linear_arena.md" >}}), I explored a multiple producer, single

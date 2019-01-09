@@ -3,7 +3,7 @@
 
 title: "Optimizing the CAS loop"
 date: 2018-12-10T10:02:58-08:00
-draft: true
+draft: false
 ---
 In the [last post]({{< ref "/blog/a_virtual_memory_linear_arena.md" >}}), I explored a multiple producer, single
 consumer linear memory buffer that could be used as an almost-infinite memory resource.

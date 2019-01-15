@@ -2,8 +2,8 @@
 # vim: set textwidth=120:
 
 title: "On C++ and Object Oriented Programming"
-# date: 2019-01-09T16:05:34-08:00
-draft: true
+date: 2019-01-15T11:05:09-08:00
+draft: false
 ---
 
 Much has been [written](http://aras-p.info/blog/2018/12/28/Modern-C-Lamentations/) lately about

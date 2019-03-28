@@ -210,7 +210,7 @@ Temp_Mem_Block begin_temp_alloc(Temp_Allocator* allocator) {
 }
 
 void end_temp_alloc(Temp_Mem_Block block) {
-  block->allocator->used = block.saved_used;
+  block.allocator->used = block.saved_used;
 }
 
 struct Temp_Allocator g_tmp;

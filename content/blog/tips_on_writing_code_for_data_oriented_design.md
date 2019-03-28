@@ -198,7 +198,7 @@ void *alloc(Temp_Allocator* allocator, U64 size, U64 alignment) {
   U64 offset = aligned - mem;
   size += offset;
 
-  assert(allocator->used + size <= size);
+  assert(allocator->used + size <= allocator->size);
   allocator->used += size;
 
   return aligned;

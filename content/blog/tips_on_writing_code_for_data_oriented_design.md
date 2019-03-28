@@ -101,7 +101,7 @@ int valueCount;
 
 int sum = 0;
 for (int i = 0; i < valueCount; ++i) {
-  sum += values[valueCount];
+  sum += values[i];
 }
 ```
 

@@ -210,7 +210,7 @@ Temp_Mem_Block begin_temp_alloc(Temp_Allocator* allocator) {
 }
 
 void end_temp_alloc(Temp_Mem_Block block) {
-  mark->allocator->used = block.saved_used;
+  block->allocator->used = block.saved_used;
 }
 
 struct Temp_Allocator g_tmp;
@@ -371,12 +371,12 @@ struct Thread_Context {
 
 void process_task(struct Thread_Context* ctx, U32* input, U32* output, U32 count) {
   struct Temp_Mem_Block tmp_mem = begin_temp_alloc(&ctx->allocator);
-  U32* tmp = ctx->allocator.push_array(U32, count);
+  U32* tmp = alloc(&ctx->allocator, sizeof(U32) * count, alignof(U32));
   sort_U32(input, tmp); // sort input using tmp as scratch memory
 
   // do some work
   for (U32 i = 0; i < count; ++i) {
-    output = operate(input);
+    output[i] = operate(input[i]);
   }
 
   end_temp_alloc(tmp_mem);

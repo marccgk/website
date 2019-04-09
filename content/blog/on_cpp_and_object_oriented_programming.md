@@ -81,11 +81,11 @@ Rewriting the solution takes us back to the notion of a snapshot of the current 
 when OOP design #1 was written and now? Everything, actually. The problem changed, hence the solution needs to be
 different.
 
-By writting the solution following OOP design principles, we abstracted the problem away and, as soon as it changed,
+By writing the solution following OOP design principles, we abstracted the problem away and, as soon as it changed,
 the solution fell apart like a house of cards.
 
 This is where I would expect people to wonder what went wrong, try a different path and update problem solving
-strategies based on the *postmortem* results. However, every time I've presenced this "it's time to rewrite" scenario,
+strategies based on the *postmortem* results. However, every time I've seen this "it's time to rewrite" scenario,
 the same strategy is used: OOP design principles, coding a snapshot of the *new* mental image of the new current problem
 space. And so the cycle repeats itself.
 
